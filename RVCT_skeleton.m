@@ -109,6 +109,14 @@ end
 % presented in experiment, and still identified as belonging to their image
 % category (nonanimal/humans good, nonanimal/CNNs good, etc.) 
 
+% Hayley: just a thought but, since we are probably going want to maintain 
+% per image data, could we just store images with unique names like
+% CNN_bad_distractor_1_blurred and then later use that file name to
+% categorize them? It just seems like it might be easier to do after.
+% But also I'm just procrastinating here and not actually writing this
+% code so obviously do whatever.
+
+
 % further separate images by editing (blurred, sharpened, etc.) 
 
 % SAVE IMAGE MATRICES FOR EACH BLOCK HERE (cell array, numTrials x 1)
